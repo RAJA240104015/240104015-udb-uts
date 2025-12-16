@@ -13,7 +13,7 @@ services:
       uts_internal_net:
         ipv4_address: 172.28.15.10
     ports:
-      - "IP_ZEROTIER:5415:5432"
+      - "172.27.107.167:5415:5432"
     volumes:
       - pg_data:/var/lib/postgresql/data
 

@@ -31,28 +31,3 @@
    git clone git@github.com:USERNAME/240104015-udb-uts.git
    cd 240104015-udb-uts
 
-4. jalankan container:
-	docker compose up -d
-5. cek container berjalan:
-	docker ps
-
-AKSES SERVICE
-
-Adminer (via nginx)
-http://IP_HOST:8015
-
-Login Adminer:
-
-System : PostgreSQL
-
-Server : uts_postgresql
-
-Username : uts_user
-
-Password : uts_password
-
-Database : uts_db
-
-
-PostgresSQL via ZeroTier
-	psql -h 172.27.107.167 -p 5415 -U uts_user -d uts_db
