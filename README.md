@@ -55,5 +55,4 @@ Database : uts_db
 
 
 PostgresSQL via ZeroTier
-	```bash
 	psql -h 172.27.107.167 -p 5415 -U uts_user -d uts_db
